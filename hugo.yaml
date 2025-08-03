@@ -44,6 +44,9 @@ permalinks:
     page: /:slug/
 
 params:
+    matomo:
+        url: https://ecocrypto.fr/stats/
+        id: 1
     mainSections:
         - post
     featuredImageField: image
@@ -65,6 +68,8 @@ params:
             enabled: true
             local: false
             src: /img/main/emblem-color-square-150.png
+
+
     article:
         math: false
         toc: true
